@@ -7,6 +7,7 @@ MAINTAINER sxzt "sjzt2513@163.com"
 RUN apt -y update && \
 	apt -y upgrade && \
 	apt -y install tzdata && \
+	apt -y install wget && \
 	apt -y clean && \
     apt -y autoclean && \
     apt -y autoremove 
